@@ -17,8 +17,9 @@
     </form>
 </body>
 </html>
+
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-echo '<h1>Привет, <b>' . $_GET['name'] . $_GET['password'] . '</b></h1>!';
+echo '<h1>Привет, <b>' . $_GET['name'] . $_GET['password'] . '</b> ! </h1>';
 }
 ?>
