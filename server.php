@@ -20,3 +20,8 @@
   if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     echo "Это ГЕТ"."<br />";
   }
+  ?>
+  
+  <form action="index.php" method="POST">
+    <input type="submit" value="Перейти на index.php" />
+</form>

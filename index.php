@@ -24,9 +24,22 @@
 // }
 ?>
 
-<?php
-    <form include "dabl.php">
-        <input type="submit">
-    </form>
 
-?>
+<form action="dabl.php" method="POST">
+    <input type="submit" value="Перейти на dabl.php" />
+</form>
+
+
+
+
+<!-- <form>
+    <input type="button" value="Переход на dabl.php">
+</form> -->
+
+
+<!-- /*
+    <form include "dabl.php">
+        <input type="button">
+    </form> 
+
+?> -->
