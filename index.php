@@ -2,6 +2,20 @@
 <head>
     <title>PHP</title>
 </head>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Semantic UI CDN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+</head>
+<body>
+      <!-- Your Semantic UI Code -->
+</body>
+
+
+
 <body>
     <form method="POST" action="server.php">
         <p>
@@ -26,7 +40,7 @@
 
 
 <form action="dabl.php" method="POST">
-    <input type="submit" value="Перейти на dabl.php" />
+    <input class="ui button" type="submit" value="Перейти на Главную" />
 </form>
 
 

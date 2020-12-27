@@ -14,7 +14,7 @@
         <p>Страница логин/пароль</p>
         <p>
         <form action="index.php" method="POST">
-            <input type="submit" value="Перейти на index.php" />
+            <input type="submit" value="Перейти на Авторизацию" />
         </form> 
         </p>  
     </div>
@@ -22,8 +22,8 @@
     <div id="button_2">
         <p>О нас</p>
         <p>
-        <form action="index.php" method="POST">
-            <input type="submit" value="Перейти на index.php" />
+        <form action="about_us.php" method="POST">
+            <input type="submit" value="Перейти на О нас" />
         </form> 
         </p>
     </div>
