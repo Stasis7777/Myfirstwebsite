@@ -1,3 +1,6 @@
+<?php
+    include("header.php");
+?>
 <div class="tabs">
     <input type="radio" name="inset" value="" id="tab_1" checked>
     <label for="tab_1">Переход на идентификацию</label>
